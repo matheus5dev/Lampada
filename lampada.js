@@ -2,7 +2,7 @@ const turnOn = document.getElementById('turnOn')
 const turnOff = document.getElementById('turnOff')
 const lamp = document.getElementById('lamp')
 
-// Função para saber se a lamapa está quebrada, retorna true ou false
+// Função para saber se a lampa está quebrada, retorna true ou false
 function isLampBroke(){
   return lamp.src.indexOf( 'quebrada' ) > -1
 }
